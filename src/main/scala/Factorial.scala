@@ -19,10 +19,10 @@ object Factorial
           }
         else
           {
-            y = y * k
+            y*=k
 
           }
-          k=k-1
+          k-=1
 
 
       }
